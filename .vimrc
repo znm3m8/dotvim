@@ -1,3 +1,6 @@
+call pathogen#runtime_append_all _bundles()
+call pathogen#helptags()
+
 inoremap <up> <NOP>
 inoremap <down> <NOP>
 inoremap <left> <NOP>
@@ -8,6 +11,5 @@ noremap <down> <NOP>
 noremap <left> <NOP>
 noremap <right> <NOP>
 
-execute pathogen#infect()
 set number
 
