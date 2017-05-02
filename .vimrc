@@ -1,4 +1,4 @@
-call pathogen#runtime_append_all _bundles()
+call pathogen#infect()
 call pathogen#helptags()
 
 inoremap <up> <NOP>
