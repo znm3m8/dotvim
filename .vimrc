@@ -10,3 +10,5 @@ noremap <right> <NOP>
 
 execute pathogen#infect()
 set number
+
+inoremap <CapsLock> <Esc>
